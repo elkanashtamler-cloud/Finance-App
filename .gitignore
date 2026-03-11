@@ -1,0 +1,47 @@
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+credentials/
+*service-account*.json
+*credentials*.json
+*.secret.json
+*.key
+*.pem
+*.p12
+*.crt
+*.der
+*.jks
+*.pfx
+*.p8
+
+# Logs
+logs/
+*.log
+sync_log.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Build artifacts
+coverage/
+.nyc_output/
+
+# Puppeteer debug artifacts
+*.png
+*.jpg
+*.jpeg
+

@@ -1,0 +1,27 @@
+{
+  "name": "family-finance-backend",
+  "version": "1.0.0",
+  "description": "Backend sync engine for Family Finance App (RiseUp alternative) using israeli-bank-scrapers and Google Sheets.",
+  "main": "sync.js",
+  "scripts": {
+    "sync": "node sync.js"
+  },
+  "keywords": [
+    "finance",
+    "israeli-bank-scrapers",
+    "google-sheets",
+    "family-finance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.3.1",
+    "google-auth-library": "^10.6.1",
+    "google-spreadsheet": "^5.2.0",
+    "israeli-bank-scrapers": "^6.7.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
