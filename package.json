@@ -4,7 +4,8 @@
   "description": "Backend sync engine for Family Finance App (RiseUp alternative) using israeli-bank-scrapers and Google Sheets.",
   "main": "sync.js",
   "scripts": {
-    "sync": "node sync.js"
+    "sync": "node sync.js",
+    "build": "npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [
     "finance",
@@ -22,6 +23,6 @@
     "israeli-bank-scrapers": "^6.7.1"
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": "22.x"
   }
 }
