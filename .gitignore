@@ -25,6 +25,9 @@ credentials/
 logs/
 *.log
 sync_log.txt
+
+# Local project docs (do not track in git)
+*.docx
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
